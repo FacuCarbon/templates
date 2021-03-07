@@ -1,0 +1,1032 @@
+
+
+@media (max-width: 480px) {
+
+    *{
+        box-sizing: border-box;
+    }
+    
+    a{
+        text-decoration:none;
+    }
+    li{
+        list-style: none;
+    }
+    body{
+        background-color: #dfdfdf;
+        overflow-x: hidden;
+    }
+
+    .header{
+        background-color:  rgb(147, 57, 207);
+        height: 110px;
+        width: 757px;
+    }
+    
+    .div-logo{
+        margin-top: 2%;
+        margin-left: 11%;
+    }
+    .div-logo a{
+        color: white;
+        font-weight: bold;
+    }
+    .li-superior{
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .li-superior li{
+        float: left;
+        font-size: 8px;
+    }
+    .li-superior img{
+        width: 12px;
+    }
+    .articulo-li span{
+        color: rgba(243, 237, 237, 0.965);
+    }
+    .numero, .email, .buscador{
+        color: rgba(243, 237, 237, 0.965);
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .email{
+        margin-left: 10%;
+    }
+    .buscador{
+        margin-left: 21%;
+    }
+    
+    /*Li inferior */
+    .li-inferior{
+        margin-top: -2%;
+    }
+    .li-inferior a{
+        color: rgba(243, 237, 237, 0.965);
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .academic, .teachers, .about, .videos, .contacto{
+        margin-left: 8%;
+    }
+    /*/////////////*/
+    
+    .seccion-imagen{
+        background-image: url(./side-view-school-boy-in-yellow-shirt-taking-virtual-classes.jpg);
+        height: 377px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 756px;
+    }
+    
+    .imagen-puntos img{
+        margin-top: -7%;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .imagen-1 img{
+        width: 300px;
+        margin-top: -71%;
+        margin-left: -13%;
+        transform: rotate(67deg);
+    }
+    
+    .onda-1{
+        margin-top: -60%;
+    }
+    .onda-1 img{
+        margin-left: 33%;
+        width: 21px;
+        margin-top: 5%;
+    }
+    .onda-2{
+        margin-top: -8%;
+        margin-left: 74%;
+    }
+    .onda-2 img{
+        width: 21px;
+        transform: rotate(96deg);
+    }
+    
+    .cabeza{
+        margin-top: -39%;
+        margin-left: 34%;
+    }
+    .cabeza img{
+        width: 24px;
+    }
+    
+    .derecho{
+        margin-top: -62%;
+    }
+    
+    .learn{
+        background-color: rgba(228, 225, 225, 0.5);
+        width: 71%;
+    }
+    
+    .learn h1{
+        margin-left: 3%;
+        color: rgb(147, 57, 207);
+        font-weight: 700;
+        font-size: 2.6rem;
+    }
+    
+    .school{
+        background-color: rgba(228, 225, 225, 0.5);
+        width: 67%;
+        margin-left: 2%
+    }
+    .school h2{
+        margin-left: 5%;
+        font-weight: 500;
+        color: rgb(147, 57, 207);
+    }
+    
+    .admision{
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+    .admision button{
+        background-color:  rgb(147, 57, 207);
+        color: white;
+        font-size: 11px;
+        font-weight: 800;
+        width: 139px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .flor{
+        margin-left: 75%;
+        margin-top: 28%;
+    }
+    .flor img{
+        width: 47px;
+    }
+    
+    /* Seccion about */
+    
+    .seccion-about{
+        background-image: url(./puntos1.png);
+        height: 250px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 757px;
+    }
+    .contenido{
+        margin-top: -39%;
+    }
+    .contenido h6{
+        color: white;
+    }
+    .contenido h5{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .contenido p{
+        color: rgba(190, 187, 187, 0.965);
+        font-weight: bold;
+        font-size: 8px;
+    }
+    
+    .read-more button{
+        font-size: 10px;
+        font-weight: 800;
+        width: 97px;
+        height: 33px;
+        border-radius: 8px;
+        border: none;
+        color: rgb(147, 57, 207);
+    }
+    
+    .logotipo-about{
+        margin-left: 35%;
+        margin-top: 25%;
+        font-size: 26px;
+    }
+    .logotipo-about a{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .features{
+        color: rgb(147, 57, 207);
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .div-articulo-1, .div-articulo-2, .div-articulo-3, .div-articulo-4{
+        width: 336px;
+        margin-left: 52%;
+    }
+    .div-articulo-1 img{
+        width: 336px;
+    height: 290px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .div-articulo-2 img{
+        width: 336px;
+    height: 290px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .div-articulo-3 img{
+        width: 336px;
+    height: 290px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .div-articulo-4 img{
+        width: 336px;
+    height: 290px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .articulo-1, .articulo-2, .articulo-3, .articulo-4 p{
+        color: rgba(98, 95, 95, 0.965);
+        font-weight: bold;
+        font-size: 11px;
+    }
+    
+   
+    
+    .titulo{
+        margin-bottom: 4%;
+        margin-top: 3%;
+    }
+    .articulo-1, .articulo-2, .articulo-3, .articulo-4{
+        background-color: #ffffff;
+        border-radius: 1px;
+    }
+    .view{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 78%;
+    }
+    .view button{
+       
+        color: white;
+        font-size: 11px;
+        font-weight: 800;
+        background-color:  rgb(147, 57, 207);
+        width: 145px;
+        height: 32px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    /*//////////////////// */
+    
+    .school-online{
+        background-image: url(./puntos1.png);
+        height: 240px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 758px;
+    }
+    
+    .div-flor-izquierda img{
+        width: 40px;
+        margin-left: -16px;
+        margin-top: -26%;
+    }
+    .articulos-school{
+        margin-left: 49%;
+        width: 31%;
+        color: white;
+
+    }
+    .articulos-school p{
+        font-weight: bold;
+        font-size: 8px;
+    }
+    
+    .articulo-imagen-school{
+        margin-left: 27%;
+    }
+    .imagen-school img{
+        width: 420px;
+    }
+    
+    .li-imagen{
+        margin-top: -4%;
+    }
+    .li-imagen li{
+        font-size: 11px;
+        float: left;
+        padding-right: 14%;
+        margin-left: -4%;
+    }
+    
+    .flor-derecha{
+        width: 40px;
+        margin-top: 70%;
+        margin-left: 31%;
+    }
+    .linea-derecha{
+        width: 260px;
+        margin-left: -41%;
+    }
+    
+    /* /////////////// */
+    .titulo-teacher{
+        width: 28%;
+        margin-left: 36%;
+        margin-top: 5%;
+    }
+    .titulo-teacher h4{
+        text-align: center;
+        color: rgb(147, 57, 207);
+        font-weight: 700;
+    }
+    .titulo-teacher p{
+        font-weight: bold;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    .imagen-teacher{
+        margin-left: 23%;
+    }
+    .imagenes-teacher img{
+        width: 717px;
+        height: 223px;
+    }
+    
+    .nombre-1, .nombre-2, .nombre-3{
+        width: 19%;
+        margin-top: -6%;
+    }
+    .nombre-1 h5{
+        color: rgb(147, 57, 207);
+        font-weight: 900;
+    }
+    .nombre-2 h5{
+        color: rgb(147, 57, 207);
+        font-weight: 900;
+    }
+    .nombre-3 h5{
+        color: rgb(147, 57, 207);
+        font-weight: 900;
+    }
+    .nombre-1, .nombre-2, .nombre-3 h6{
+        color: rgb(147, 57, 207);
+    
+    }
+    .nombre-1{
+        margin-left: 26%;
+    }
+    .videos-channel{
+        margin-top: 10%;
+        margin-left: 24%;
+    }
+    .videos-channel h5{
+        color: rgb(147, 57, 207);
+        font-weight: bold;
+    }
+    
+    .imagen-chicos{
+        margin-left: 23%;
+    }
+    .imagen-chicos img{
+        width: 717px;
+        height: 178px;
+        
+    }
+    .videos-chicos-1 img{
+        width: 91px;
+        margin-left: 18%;
+    }
+    .videos-chicos-2 img{
+        width: 91px;
+        margin-left: 18%;
+    }
+    .videos-chicos-3 img{
+        width: 91px;
+        margin-left: 18%;
+    }
+    .videos-chicos-1{
+        margin-left: 25%;
+    }
+    
+    .videos-chicos-1, .videos-chicos-2, .videos-chicos-3{
+        width: 18%;
+        margin-top: -11%;
+    }
+    .fechas-1, .fechas-2, .fechas-3{ 
+       width: 75%;
+       margin-top: 13%;
+    }
+    .fecha{
+        font-size: 10px;
+        color: gray;
+    }
+    .texto{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .titulo-contacto{
+        margin-left: 33%;
+        width: 33%;
+        text-align: center;
+        margin-top: 4%;
+    }
+    .titulo-contacto h4{
+        color: rgb(147, 57, 207);
+        font-weight: bold;
+    }
+    
+    .titulo-contacto h6{
+        font-size: 11px;
+    }
+    
+    .formulario{
+        margin-left: 29%;
+        margin-top: 3%;
+    }
+    
+    .nombre, .mail, .textarea{
+        width: 565px;
+        color: rgb(147, 57, 207);
+        background-color: rgb(225, 194, 243);
+    }
+    
+    .nombre, .mail{
+        margin-bottom: 2%;
+    }
+    .formulario button{
+        font-weight: 800;
+        background-color:  rgb(147, 57, 207);
+        width: 145px;
+        height: 29px;
+        border-radius: 8px;
+        border: none;
+        font-size: 11px;
+        color: white;
+        margin-top: 2%;
+        margin-left: 16%;
+    }
+    
+    /* Footer */
+    .footer{
+        margin-top: 3%;
+        background-image: url(./puntos1.png);
+        height: 200px;
+    }
+    
+    .florcita{
+        width: 40px;
+        margin-top: -8%;
+        margin-left: 48%;
+    }
+    .linea-footer{
+        width: 198px;
+        height: 170px
+    }
+    
+    .address{
+        margin-top: 2%;
+    }
+    .address h5{
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+    }
+    .address h6{
+        font-size: 12px;
+        color: white;
+    }
+    
+    .imagen-footer-1{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .logo-footer{
+        margin-left: 16%;
+        margin-top: 6%;
+    }
+    
+    .bolita-footer img{
+        margin-top: -32%;
+    }
+} /* Celulares */
+@media (min-width: 480px) and (max-width: 575px) {
+    
+} /*Refuerzo a celulares*/
+@media (min-width: 575px) and (max-width: 767px) {} /*Refuerzo hasta tablet */
+@media (min-width: 767px) and (max-width: 1023px) {} /* Tablet hasta escritorio */
+
+
+@media(min-width:1024px){
+    .header{
+        background-color:  rgb(147, 57, 207);
+        height: 110px;
+    }
+    
+    .div-logo{
+        margin-top: 2%;
+        margin-left: 11%;
+    }
+    .div-logo a{
+        color: white;
+        font-weight: bold;
+    }
+    .li-superior{
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .li-superior li{
+        float: left;
+        font-size: 8px;
+    }
+    .li-superior img{
+        width: 12px;
+    }
+    .articulo-li span{
+        color: rgba(243, 237, 237, 0.965);
+    }
+    .numero, .email, .buscador{
+        color: rgba(243, 237, 237, 0.965);
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .email{
+        margin-left: 10%;
+    }
+    .buscador{
+        margin-left: 21%;
+    }
+    
+    /*Li inferior */
+    .li-inferior{
+        margin-top: -2%;
+    }
+    .li-inferior a{
+        color: rgba(243, 237, 237, 0.965);
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .academic, .teachers, .about, .videos, .contacto{
+        margin-left: 8%;
+    }
+    /*/////////////*/
+    
+    .seccion-imagen{
+        background-image: url(./side-view-school-boy-in-yellow-shirt-taking-virtual-classes.jpg);
+        height: 500px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .imagen-puntos img{
+        margin-top: -7%;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .imagen-1 img{
+        width: 300px;
+        margin-top: -71%;
+        margin-left: -13%;
+        transform: rotate(67deg);
+    }
+    
+    .onda-1{
+        margin-top: -60%;
+    }
+    .onda-1 img{
+        margin-left: 33%;
+        width: 21px;
+        margin-top: 5%;
+    }
+    .onda-2{
+        margin-top: -8%;
+        margin-left: 74%;
+    }
+    .onda-2 img{
+        width: 21px;
+        transform: rotate(96deg);
+    }
+    
+    .cabeza{
+        margin-top: -39%;
+        margin-left: 34%;
+    }
+    .cabeza img{
+        width: 24px;
+    }
+    
+    .derecho{
+        margin-top: -31%;
+    }
+    
+    .learn{
+        background-color: rgba(228, 225, 225, 0.5);
+        width: 71%;
+    }
+    
+    .learn h1{
+        margin-left: 3%;
+        color: rgb(147, 57, 207);
+        font-weight: 700;
+        font-size: 2.6rem;
+    }
+    
+    .school{
+        background-color: rgba(228, 225, 225, 0.5);
+        width: 67%;
+        margin-left: 2%
+    }
+    .school h2{
+        margin-left: 5%;
+        font-weight: 500;
+        color: rgb(147, 57, 207);
+    }
+    
+    .admision{
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+    .admision button{
+        background-color:  rgb(147, 57, 207);
+        color: white;
+        font-size: 11px;
+        font-weight: 800;
+        width: 139px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .flor{
+        margin-left: 75%;
+        margin-top: 28%;
+    }
+    .flor img{
+        width: 47px;
+    }
+    
+    /* Seccion about */
+    
+    .seccion-about{
+        background-image: url(./puntos1.png);
+        height: 410px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .contenido{
+        margin-top: 14%;
+    }
+    .contenido h6{
+        color: white;
+    }
+    .contenido h5{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .contenido p{
+        color: rgba(190, 187, 187, 0.965);
+        font-weight: bold;
+        font-size: 8px;
+    }
+    
+    .read-more button{
+        font-size: 10px;
+        font-weight: 800;
+        width: 97px;
+        height: 33px;
+        border-radius: 8px;
+        border: none;
+        color: rgb(147, 57, 207);
+    }
+    
+    .logotipo-about{
+        margin-left: 35%;
+        margin-top: 25%;
+        font-size: 26px;
+    }
+    .logotipo-about a{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .features{
+        color: rgb(147, 57, 207);
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .div-articulo-1, .div-articulo-2, .div-articulo-3, .div-articulo-4{
+        width: 166px;
+        margin-left: 12%;
+    }
+    .div-articulo-1 img{
+        width: 166px;
+        height: 100px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .div-articulo-2 img{
+        width: 166px;
+        height: 100px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .div-articulo-3 img{
+        width: 166px;
+        height: 100px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .div-articulo-4 img{
+        width: 166px;
+        height: 100px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px
+    }
+    .articulo-1, .articulo-2, .articulo-3, .articulo-4 p{
+        color: rgba(98, 95, 95, 0.965);
+        font-weight: bold;
+        font-size: 11px;
+    }
+    
+    .class-1{
+        margin-left: 17%;
+    }
+    
+    .titulo{
+        margin-bottom: 4%;
+        margin-top: 3%;
+    }
+    .articulo-1, .articulo-2, .articulo-3, .articulo-4{
+        background-color: #ffffff;
+        border-radius: 1px;
+    }
+    .view{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .view button{
+       
+        color: white;
+        font-size: 11px;
+        font-weight: 800;
+        background-color:  rgb(147, 57, 207);
+        width: 145px;
+        height: 32px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    /*//////////////////// */
+    
+    .school-online{
+        background-image: url(./puntos1.png);
+        height: 250px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .div-flor-izquierda img{
+        width: 40px;
+        margin-left: -16px;
+        margin-top: -26%;
+    }
+    .articulos-school{
+        margin-left: 49%;
+        width: 31%;
+        color: white;
+        margin-top: 3%;
+    }
+    .articulos-school p{
+        font-weight: bold;
+        font-size: 8px;
+    }
+    
+    .articulo-imagen-school{
+        margin-left: 41%;
+    }
+    .imagen-school img{
+        width: 420px;
+    }
+    
+    .li-imagen{
+        margin-top: -4%;
+    }
+    .li-imagen li{
+        font-size: 11px;
+        float: left;
+        padding-right: 14%;
+        margin-left: -4%;
+    }
+    
+    .flor-derecha{
+        width: 40px;
+        margin-top: 70%;
+        margin-left: 31%;
+    }
+    .linea-derecha{
+        width: 260px;
+        margin-left: -41%;
+    }
+    
+    /* /////////////// */
+    .titulo-teacher{
+        width: 28%;
+        margin-left: 36%;
+        margin-top: 5%;
+    }
+    .titulo-teacher h4{
+        text-align: center;
+        color: rgb(147, 57, 207);
+        font-weight: 700;
+    }
+    .titulo-teacher p{
+        font-weight: bold;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    .imagen-teacher{
+        margin-left: 23%;
+    }
+    .imagenes-teacher img{
+        width: 717px;
+        height: 223px;
+    }
+    
+    .nombre-1, .nombre-2, .nombre-3{
+        width: 19%;
+        margin-top: -6%;
+    }
+    .nombre-1 h5{
+        color: rgb(147, 57, 207);
+        font-weight: 900;
+    }
+    .nombre-2 h5{
+        color: rgb(147, 57, 207);
+        font-weight: 900;
+    }
+    .nombre-3 h5{
+        color: rgb(147, 57, 207);
+        font-weight: 900;
+    }
+    .nombre-1, .nombre-2, .nombre-3 h6{
+        color: rgb(147, 57, 207);
+    
+    }
+    .nombre-1{
+        margin-left: 26%;
+    }
+    .videos-channel{
+        margin-top: 10%;
+        margin-left: 24%;
+    }
+    .videos-channel h5{
+        color: rgb(147, 57, 207);
+        font-weight: bold;
+    }
+    
+    .imagen-chicos{
+        margin-left: 23%;
+    }
+    .imagen-chicos img{
+        width: 717px;
+        height: 178px;
+        
+    }
+    .videos-chicos-1 img{
+        width: 91px;
+        margin-left: 18%;
+    }
+    .videos-chicos-2 img{
+        width: 91px;
+        margin-left: 18%;
+    }
+    .videos-chicos-3 img{
+        width: 91px;
+        margin-left: 18%;
+    }
+    .videos-chicos-1{
+        margin-left: 25%;
+    }
+    
+    .videos-chicos-1, .videos-chicos-2, .videos-chicos-3{
+        width: 18%;
+        margin-top: -11%;
+    }
+    .fechas-1, .fechas-2, .fechas-3{ 
+       width: 75%;
+       margin-top: 13%;
+    }
+    .fecha{
+        font-size: 10px;
+        color: gray;
+    }
+    .texto{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .titulo-contacto{
+        margin-left: 33%;
+        width: 33%;
+        text-align: center;
+        margin-top: 4%;
+    }
+    .titulo-contacto h4{
+        color: rgb(147, 57, 207);
+        font-weight: bold;
+    }
+    
+    .titulo-contacto h6{
+        font-size: 11px;
+    }
+    
+    .formulario{
+        margin-left: 29%;
+        margin-top: 3%;
+    }
+    
+    .nombre, .mail, .textarea{
+        width: 565px;
+        color: rgb(147, 57, 207);
+        background-color: rgb(225, 194, 243);
+    }
+    
+    .nombre, .mail{
+        margin-bottom: 2%;
+    }
+    .formulario button{
+        font-weight: 800;
+        background-color:  rgb(147, 57, 207);
+        width: 145px;
+        height: 29px;
+        border-radius: 8px;
+        border: none;
+        font-size: 11px;
+        color: white;
+        margin-top: 2%;
+        margin-left: 16%;
+    }
+    
+    /* Footer */
+    .footer{
+        margin-top: 3%;
+        background-image: url(./puntos1.png);
+        height: 200px;
+    }
+    
+    .florcita{
+        width: 40px;
+        margin-top: -8%;
+        margin-left: 48%;
+    }
+    .linea-footer{
+        width: 198px;
+        height: 170px
+    }
+    
+    .address{
+        margin-top: 2%;
+    }
+    .address h5{
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+    }
+    .address h6{
+        font-size: 12px;
+        color: white;
+    }
+    
+    .imagen-footer-1{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .logo-footer{
+        margin-left: 16%;
+        margin-top: 6%;
+    }
+    
+    .bolita-footer img{
+        margin-top: -32%;
+        width: 881px;
+        height: 180px;
+    }
+
+} /*Escritorio */
+
